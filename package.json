@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js",
+    "build": "webpack-dev-server --entry ./src/js/app.js --output-filename ./dist/bundle.js", //cmd for webpack-dev-server
     "build:prod": "webpack src/js/app.js dist/bundle.js -p"
   },
   "author": "",
